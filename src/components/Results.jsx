@@ -3,7 +3,7 @@ const Results = ({ results }) => {
     <div>
       {results.map((result) => (
         <div key={result.id}>
-          <h2>{result}</h2>
+          <h2>{result.original_title}</h2>
         </div>
       ))}
     </div>
